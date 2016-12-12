@@ -22,7 +22,7 @@ Solution in the solution branch.
 
 **Initialize a Node.js Project with Express**
 
-1. Go to your `~/wdi` directory and clone this repo.  (You don't need to fork.)  From inside your `express-intro` directory, enter the Terminal command `npm init`. It asks a series of questions about your project and uses the information to create a `package.json` file for you. For now, we'll use all of the defaults except "entry point". Type in `server.js` for your entry point, and then you can just hit enter until `npm init` is done.  Take a look at `package.json` to see the initial information `npm init` helps you set up.
+1. Go to your `~/wdi` directory and clone this repo.  (You don't need to fork.)  From inside your `express-intro` directory, enter the Terminal command `npm init`. It asks a series of questions about your project and uses the information to create a `package.json` file for you. For now, we'll use all of the defaults except "entry point". **Type in `server.js` for your entry point**, and then you can just hit enter until `npm init` is done.  Take a look at `package.json` to see the initial information `npm init` helps you set up.
 
 2. Add express to the local project using `npm`. Use the `save` option so that NPM automatically adds express to your dependencies in `package.json`.
 
@@ -60,17 +60,17 @@ Solution in the solution branch.
 
 1. Add a comment above each line of code saying what each line does.
 
-  > **Hint**: Reference the documentation linked in the README for today's module. 
+  > **Hint**: Reference [the express documentation](http://expressjs.com/en/4x/api.html#app).
   > **Hint**: `process.env.PORT || 3000` means "in production use the production port, otherwise use 3000 (for development)".
 
-1. Run `node server.js` in the Terminal. You should see 'Example app listening at http://localhost:3000/' _in the Terminal_.  When we're using express, this is where our server-side console logs show up!  Also, visit `http://localhost:3000/` in your browser. You should see "Hello World!"  The browser console only shows client-side console outputs.
+1. Run `node server.js` in the Terminal. You should see 'Example app listening at http://localhost:3000/' _in the Terminal_.  When we're using express, this is where our server-side console logs show up!  Also, visit `http://localhost:3000/` in your browser. You should see "Hello World!"  The browser console only shows client-side console outputs. **Every time you make a change in your server code and want it to run, you need to end the previous server and run `node server.js`**.
 
 1. Console log the `req` (request) and the `res` (response) objects inside your server code's `app.get` method for the `/` path. (The `/` path is often called the "root" path.) Restart the server and briefly check out what the `req` and `res` are.
 
 
 **Add Some Data on the Server**
 
-1. Add some starter data  (often called "seed data") to serve when the users visit '/api/albums'.
+1. In server.js, add some starter data  (often called "seed data") to serve when the users visit '/api/albums'.
 
   ```js
     // server.js
@@ -96,7 +96,7 @@ Solution in the solution branch.
 
 **Request Data From the Server**
 
-1. Let's get this working with our index page now.  In your browser, open `index.html` and then open the javascript console.  You should see 'Sanity Check: JS is working!'  Try running the following ajax request in the javascript console:
+1. Let's get this working with our index page now.  In your browser, open `index.html` and then open the javascript console.  You should see 'Sanity Check: JS is working!'  Try running the following AJAX request in the JavaScript console:
 
   ```js
   $.ajax({
