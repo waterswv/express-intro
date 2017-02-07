@@ -122,7 +122,7 @@ Solution in the solution branch.
   ```
   Dig into those and see what they look like.
 
-3. Next edit `app.js` to run the same ajax call as above and console log the data.  Remember to put your ajax call inside the handler for the document ready event: `$(document).on('ready', function() {})`. Consider moving the success handling function definition outside the ajax call, since it's about to get more complicated!
+3. Next edit `app.js` to run the same ajax call as above and console log the data.  Remember to put your ajax call inside the handler for the document ready event: `$(document).ready(function() {})`. Consider moving the success handling function definition outside the ajax call, since it's about to get more complicated!
 
 3. Once you have that, edit `app.js` to display this data on your `index.html` page using jQuery.  Decide how you want it to look.  **Hint:** You might also find it useful to edit `index.html`!
 
