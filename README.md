@@ -202,6 +202,7 @@ We're making a weird app. Albums and taquerias.  Treat your senses.
 4. In your `app.js` file, write a jQuery AJAX request to get the taqueria data. When the response comes back, display all the taqueria names above the albums on your site's root page (localhost:3000/).  
 
   <details><summary> Want a reminder of the ajax call structure? Click here!</summary>
+  
     ```js
     $.ajax({
       method: 'GET',
