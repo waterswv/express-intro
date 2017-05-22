@@ -202,7 +202,7 @@ We're making a weird app. Albums and taquerias.  Treat your senses.
 4. In your `app.js` file, write a jQuery AJAX request to get the taqueria data. When the response comes back, display all the taqueria names above the albums on your site's root page (localhost:3000/).  
 
   <details><summary> Want a reminder of the ajax call structure? Click here!</summary>
-  
+
     ```js
     $.ajax({
       method: 'GET',
@@ -215,7 +215,7 @@ We're making a weird app. Albums and taquerias.  Treat your senses.
     }
     ```
 
-
+  </details>
 ### Stretch Challenges
 
 1. Add a `vendor` folder to your project. The `vendor` folder is traditionally used for third-party (external) library code.  Download Bootstrap's CSS and JavaScript files and add them to the `vendor` folder. Can you include Bootstrap in your project from this location instead of the CDN? What is the benefit of having a separate `vendor` folder for external front-end libraries?
