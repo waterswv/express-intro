@@ -13,9 +13,9 @@ Solution in the solution branch.
 
     1. To install Homebrew:
 
-        ```bash
-          ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-        ```
+      ```bash
+        ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+      ```
 
     2. To install Node.js: `brew install node`
     3. If you encounter issues, ask for help!
@@ -57,7 +57,6 @@ Solution in the solution branch.
       console.log('Example app listening at http://localhost:3000/');
     });
   ```
-
 1. Add a comment above each line of code saying what each line does.
 
   > **Hint**: Reference [the express documentation](http://expressjs.com/en/4x/api.html#app).
