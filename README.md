@@ -203,19 +203,20 @@ We're making a weird app. Albums and taquerias.  Treat your senses.
 
   <details><summary> Want a reminder of the ajax call structure? Click here!</summary>
 
-    ```js
-    $.ajax({
-      method: 'GET',
-      url: '/api/taquerias',
-      success: handleResponse
-    });
+  ```js
+  $.ajax({
+    method: 'GET',
+    url: '/api/taquerias',
+    success: handleResponse
+  });
 
-    function handleResponse(json) {
-      // your code here
-    }
-    ```
+  function handleResponse(json) {
+    // your code here
+  }
+  ```
 
   </details>
+
 ### Stretch Challenges
 
 1. Add a `vendor` folder to your project. The `vendor` folder is traditionally used for third-party (external) library code.  Download Bootstrap's CSS and JavaScript files and add them to the `vendor` folder. Can you include Bootstrap in your project from this location instead of the CDN? What is the benefit of having a separate `vendor` folder for external front-end libraries?
